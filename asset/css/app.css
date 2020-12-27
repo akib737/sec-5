@@ -1,0 +1,45 @@
+.section-bg {
+  position: relative;
+}
+.section-bg::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 45%;
+  content: "";
+  background: url(../img/section-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.section-title {
+  padding: 25px 0 0 0;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+#accordionExample {
+  min-height: 400px;
+}
+span {
+  color: #18b5fd;
+}
+.accordion-button {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 17px;
+}
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  color: #333;
+  background-color: transparent;
+  border: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+#collapseOne,
+#collapseTwo,
+#collapseThree {
+  border: none;
+}
